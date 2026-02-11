@@ -14,4 +14,10 @@ dog = Dog()
 cat = Cat()
 
 dog.speak() #Woof Woof
-cat.speak() #Meow Meow 
+cat.speak() #Meow Meow
+
+# use Polymorphism
+animals = [Dog(), Cat()]
+
+for animal in animals:
+    animal.speak()
